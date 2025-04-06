@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "57e2fef0-7d4a-4367-947d-9a7902199dde",
+		"name": "Projeto microservices-java-springboot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "14019197"
+	},
+	"item": [
+		{
+			"name": "Fase 1",
+			"item": [
+				{
+					"name": "hr-worker",
+					"item": [
+						{
+							"name": "All workers",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://localhost:8001/workers"
+							},
+							"response": []
+						},
+						{
+							"name": "Worker by id",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "http://localhost:8001/workers/1"
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
